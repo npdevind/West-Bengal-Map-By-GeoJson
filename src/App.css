@@ -1,0 +1,31 @@
+
+.map-container {
+  position: relative;
+  height: 500px; /* Adjust as needed */
+}
+
+.leaflet-container{
+  background:none !important;
+  position: absolute !important;
+  width: 80% !important;
+  height: 80% !important;
+  z-index: -1 !important;
+  top: 35px !important;
+  /* left: 0px !important; */
+  right: 950px !important;
+
+}
+
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+.tooltip {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
